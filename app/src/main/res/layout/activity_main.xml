@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_jog_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/jogador1"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_jog1_1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/_1"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/bt_jog1_3"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_jog_1" />
+
+    <Button
+        android:id="@+id/bt_jog1_3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/_3"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/bt_jog1_6"
+        app:layout_constraintStart_toEndOf="@+id/bt_jog1_1"
+        app:layout_constraintTop_toTopOf="@+id/bt_jog1_1" />
+
+    <Button
+        android:id="@+id/bt_jog1_6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/_6"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/bt_jog1_9"
+        app:layout_constraintStart_toEndOf="@+id/bt_jog1_3"
+        app:layout_constraintTop_toTopOf="@+id/bt_jog1_3" />
+
+    <Button
+        android:id="@+id/bt_jog1_9"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/_9"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/bt_jog1_12"
+        app:layout_constraintStart_toEndOf="@+id/bt_jog1_6"
+        app:layout_constraintTop_toTopOf="@+id/bt_jog1_6" />
+
+    <Button
+        android:id="@+id/bt_jog1_12"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/_12"
+        android:textSize="12sp"
+        app:iconPadding="4dp"
+        app:iconSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bt_jog1_9"
+        app:layout_constraintTop_toTopOf="@+id/bt_jog1_9" />
+
+    <TextView
+        android:id="@+id/tv_jog_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="184dp"
+        android:text="@string/jogador2"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_jog2_1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/__1"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/bt_jog2_3"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_jog_2" />
+
+    <Button
+        android:id="@+id/bt_jog2_3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/__3"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/bt_jog2_6"
+        app:layout_constraintStart_toEndOf="@+id/bt_jog2_1"
+        app:layout_constraintTop_toTopOf="@+id/bt_jog2_1" />
+
+    <Button
+        android:id="@+id/bt_jog2_6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/__6"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/bt_jog2_9"
+        app:layout_constraintStart_toEndOf="@+id/bt_jog2_3"
+        app:layout_constraintTop_toTopOf="@+id/bt_jog2_3" />
+
+    <Button
+        android:id="@+id/bt_jog2_9"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/__9"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/bt_jog2_12"
+        app:layout_constraintStart_toEndOf="@+id/bt_jog2_6"
+        app:layout_constraintTop_toTopOf="@+id/bt_jog2_6" />
+
+    <Button
+        android:id="@+id/bt_jog2_12"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/__12"
+        android:textSize="12sp"
+        app:iconPadding="4dp"
+        app:iconSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bt_jog2_9"
+        app:layout_constraintTop_toTopOf="@+id/bt_jog2_9" />
+
+    <Button
+        android:id="@+id/bt_hist_vit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/hist_rico_jogadas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_jog2_6" />
+
+    <Button
+        android:id="@+id/bt_zer_his"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/zerar_hist_rico"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_hist_vit" />
+
+    <Button
+        android:id="@+id/bt_inf_nom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/informar_nomes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_zer_his" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/doisp"
+        android:textFontWeight="700"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_jog_1"
+        app:layout_constraintTop_toTopOf="@+id/tv_jog_1" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/doispp"
+        android:textFontWeight="700"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_jog_2"
+        app:layout_constraintTop_toTopOf="@+id/tv_jog_2" />
+
+    <TextView
+        android:id="@+id/tv_jog1_pts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/_00"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_jog_1"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="@+id/tv_jog_1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tv_jog2_pts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/__00"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_jog_2"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="@+id/tv_jog_2"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
